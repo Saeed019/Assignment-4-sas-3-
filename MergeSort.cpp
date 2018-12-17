@@ -59,7 +59,7 @@ void MergeSort::merge_sort(int value[], int startIndex, int endIndex)
         merge(value,startIndex,middleIndex,middleIndex+1,endIndex);
         for(int index=0; index<8; index++)
         {
-            cout<<value[index]<<" ";
+            cout<<value[index]<<"  ";
         }
         cout<<endl;
     }
