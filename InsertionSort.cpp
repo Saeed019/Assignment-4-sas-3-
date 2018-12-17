@@ -9,7 +9,7 @@ InsertionSort::~InsertionSort()
 }
 void InsertionSort::InsertionSorter(int arr[], int arr_size)
 {
-     cout <<"InsertionSort :"<<endl;
+     cout <<"Insertion Sort :"<<endl;
     if(arr_size > 1)
     {
         int size = arr_size;
